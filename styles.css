@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    width: 33%;
+    background: #7272bb url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
+    background-size: cover;
+    height: 1350px;
+}
+
+#survey-form {
+    opacity: 0.99;
+}
+
+form {
+    background-color: rgba(37,36,67,0.8);
+    padding: 2.0rem 2.5rem;
+    text-align-all: left;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #e0deda;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #e0deda;
+    font-style: italic;
+}
+
+span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+label,input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #e0deda;
+}
+
+button {
+    background-color: #37ae64;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    width: 100%;
+    padding: 12px 32px;
+    margin: 25px 2px 0 2px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.top-inputs input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#dropdown, #dropdown-feature {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+}
+
+input.larger-checkboxes {
+    width: 20px;
+    height: 20px;
+}
+
+input.larger-radio {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        width: 100%;
+    }
+}
